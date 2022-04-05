@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.nav1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* font-family: var(--gl-body-font-set-family-functional-7),var(--gl-font-family-fallback); */
+    /* padding: 0 100px; */
+}
+.nav1 p{
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 40px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+.nav1 .time h5{
+    text-align: center;
+}
+.nav1 p:hover{
+    border-bottom: 1px solid white;
+    transition: 0.3s;
+}
+.nav2{
+    width: 100%;
+    height: 75px;
+    border: 2px solid  #f0f0f0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 40px 10px 40px;
+}
+.nav2 li{
+list-style: none;
+margin-right: 20px;
+/* font-size: 10px; */
+}
+ .nav2 a{
+   text-decoration: none;
+   color: black;
+ }   
+.nav2_logo{
+    
+}
+.nav2_listItems{
+    width: 33.3%;
+    display: flex;
+    margin-left:210px ;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav2_rightItems .up{
+    display: flex;
+    margin-bottom: 10px;
+}
+.nav2_rightItems .up a{
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+}
+.nav2_rightItems .down{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.nav2_rightItems .down input{
+    height: 30px;
+    background: #f0f0f0 ;
+    border: none;
+    text-indent: 10px;
+}
+.nav2_rightItems .down input:focus{
+    outline: none;
+}
+.togather{
+    height: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2_rightItems .down button{
+height: 30px;
+width: 30px;
+border: none;
+background:  #f0f0f0 ;
+cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.main_container1{
+    width: 100%;
+    height: 100%;
+    background-image:url(./running-ss22-ultraboost-educate-catlp-masthead-large-2-d_tcm221-860848.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.main_leftSide{
+    width: 50%;
+    padding: 80px 100px 0px 50px;
+}
+.main_leftSide h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.main_leftSide p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 450px;
+margin-top: 15px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btns button {
+    margin-top: 20px;
+    height: 45px;
+    background: black;
+    color: white;
+    border: none;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.btns button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.btns button i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.btns .btn1{
+    width: 180px;
+}
+.btns .btn2{
+    width: 150px;
+}
+.btns .btn3{
+    width: 160px;
+}
+.main_rightSide{
+    width: 50%;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+
+}
+.main_rightSide button{
+    position: fixed;
+    transform: rotate(270deg);
+    /* height: 50px;
+    width: 100px; */
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    margin-left: 600px;
+    margin-bottom: 120px;
+    padding: 12px 15px;
+    
+}
+
+
+
+
+
+
+
+
